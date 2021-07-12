@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>Register Here</h1>
-	<form action="script.php" method="POST" >
+	<form action="main.php" method="POST" >
             <div class="formclass">
                 <input class="firstname" id="name" type="text" name="name" required placeholder="UserName"><br>
 				<input class="password" name="pwd" type="password" required placeholder="Password">  
