@@ -8,36 +8,39 @@ body{
 
 .title{
     text-align: center;
-    text-transform: uppercase;
+    font-family: Verdana, sans-serif;
+
 }
 h1{
 	text-align: center;
+  font-family: Verdana, sans-serif;
 	color:rgb(255, 255, 255);
 }
 form{
-    background-color:white;
+    background-color:chartreuse;
     opacity: 0.7;
     color: black;
     font-size: 23px;
     text-align: center;
-    margin-top: 0%;
+    margin-top: 3%;
     padding-top:1%;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-right: 20%;
     padding-bottom: 1%;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .input::placeholder{
     background-color: #eee !important;
     color: #eee;;
+    width:96%
 }
 input[type="text"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 3px solid #ccc;
+    border-radius: 13px;
     box-sizing: border-box;
     font-size: large;
     
@@ -47,8 +50,8 @@ input[type='password'] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid rgb(214, 202, 205);
+    border-radius: 13px;
     box-sizing: border-box;
     font-size: large;
     
@@ -59,7 +62,7 @@ input[type="email"]{
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 13px;
     box-sizing: border-box;
     font-size: large;
 }
@@ -69,7 +72,7 @@ input[type='password'] {
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 13px;
     box-sizing: border-box;
     font-size: large;
     
@@ -94,6 +97,7 @@ p{
     align-items: left;
     text-align: justify;
     margin-right: 20%;
+    border-radius: 50px;
 }
 .button {
     background-color:black;
@@ -107,9 +111,9 @@ p{
     margin-right: 10%;
 }
 .button:hover {
-    background-color: gold;
+    background-color: rgb(0, 217, 255);
    
-    color: white;
+    color: palevioletred;
 }
 
 
